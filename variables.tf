@@ -41,3 +41,25 @@ variable "aws_policy_arn" {
     default = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
 }
 
+
+
+variable "iam_instance_profile" {
+    type = string
+    default = "salem"
+
+
+}
+variable "vpc_id" {
+    type = string
+    default = "vpc-3515544f"
+
+
+}
+
+variable "private_zone" {
+    type = string
+    default = "salemsenthil"
+
+
+}
+
